@@ -1,0 +1,322 @@
+@font-face {
+    font-family: 'Quicksand';
+    src: url("fonts/static/Quicksand-Medium.ttf") format('truetype');
+    src: url("fonts/static/Quicksand-Regular.ttf") format('truetype');
+    src: url("fonts/static/Quicksand-SemiBold.ttf") format('truetype');
+    src: url("fonts/static/Quicksand-Light.ttf") format('truetype');
+    src: url("fonts/static/Quicksand-Bold.ttf") format('truetype');
+}
+
+html, body {
+    margin: 0;
+    height: 100%;
+    font-family: 'Quicksand';
+}
+
+.container {
+    display: grid;
+    grid-template-rows: 50px auto 40px;
+    height: 100%;
+}
+
+.header {
+    background: url("qsa/header_pattern_svg.svg");
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.logo-icon {
+    content: url('qsa/icons/logo_used_in_header.svg');
+    width: auto;
+    height: 36px;
+    margin-left: 24px;
+}
+
+.header-items {
+    margin-right: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.nav-item {
+    margin-left: 32px;
+    color: #3FD28B;
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    align-self: center;
+    height: 100%;
+}
+
+.bell-icon {
+    content: url("qsa/icons/alerts.svg");
+    height: 24px;
+}
+
+.horn-icon {
+    content: url("qsa/icons/announcements.svg");
+    height: 24px;
+}
+
+.profile-icon {
+    content: url("qsa/icons/profile.jpg");
+    height: 24px;
+    border-radius: 50%;
+    border: 2px solid #8DDC97;
+}
+
+.active {
+    color: #FFFFFF;
+    border-bottom: 4px solid #FFFFFF;
+}
+
+.main {
+    border-top: 3px solid #31B9E4;
+    background: #EEEEEE;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 36px;
+}
+
+.course-header {
+    height: 64px;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 4px solid transparent;
+}
+
+.course-header-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    width: 100%;
+    height: 100%;
+    background-color: #8DDC97;
+    border-bottom: 4px solid transparent;
+}
+
+.active-black {
+    border-bottom: 4px solid #222222;
+}
+
+.courses-icon {
+    content: url("qsa/icons/courses.svg");
+    height: 32px;
+}
+
+.classes-icon {
+    content: url("qsa/icons/classes.svg");
+    height: 32px;
+}
+
+.sort-line {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 24px;
+    color: #686868;
+}
+
+.showing {
+    justify-self: flex-start;
+    font-size: 12px;
+}
+
+.sortBy {
+    display: flex;
+    font-size: 12px;
+    text-align: center;
+}
+
+.sortBy-dropdown {
+    font: normal normal medium 16px/20px 'Quicksand';
+    color: #222222;
+    font-family: 'Quicksand';
+    font-size: 16px;
+    width: 200px;
+    background-color: #eeeeee;
+}
+
+.sort-icon {
+    margin-left: 24px;
+    content: url("qsa/icons/sort.svg");
+}
+
+.hr-line {
+    align-self: stretch;
+}
+
+.courses {
+    margin: 16px 0px 24px 0px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px,1fr));
+    gap: 36px;
+    justify-items: center;
+    max-width: 100%;
+}
+
+.card {
+    margin: 0;
+    display: flex;
+    padding: 24px 16px 9px 24px;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    /* max-width: 600px; */
+}
+
+.card-body {
+    display: flex;
+}
+
+.card-img {
+    margin: 0px 16px 16px 0;
+}
+
+.card-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+}
+
+.line-1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-grow: 1;
+    width: 100%;
+    font: normal normal medium 16px/20px 'Quicksand';
+    font-size: 16px;
+    color: #222222;
+}
+
+.star-icon {
+    content: url("favourite.svg");
+    margin-left: auto;
+    margin-right: 0px;
+    size: 24px;
+}
+
+.line-2 {
+    margin-top: 7px;
+    font: normal normal medium 12px/16px 'Quicksand';
+    color: #666666;
+    font-size: 12px;
+}
+
+b {
+    color: #222222;
+}
+
+.line-3 {
+    margin-top: 7px;
+    font: normal normal medium 12px/16px 'Quicksand';
+    color: #666666;
+    font-size: 12px;
+}
+
+.line-4 {
+    margin-top: 18px;
+    font: normal normal medium 16px/20px 'Quicksand';
+    color: #222222;
+}
+
+select {
+    border: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.38);
+}
+
+.class-dropdown {
+    font: normal normal medium 16px/20px 'Quicksand';
+    color: #222222;
+    font-family: 'Quicksand';
+    font-size: 16px;
+    width: 100%;
+}
+
+.line-5 {
+    margin-top: 8px;
+    font: normal normal medium 12px/16px Quicksand;
+    color: #666666;
+    font-size: 12px;
+}
+
+.text-green {
+    color: #1F7A54;
+}
+
+hr {
+    background: rgba(0, 0, 0, 1) 0% 0% no-repeat padding-box;
+    opacity: 0.12;
+    width: 100%;
+    height: 1px;
+}
+
+.card-footer {
+    display: flex;
+    margin-top: 18px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.eye-icon {
+    content: url("preview.svg");
+}
+
+.manage-icon {
+    content: url("manage_course.svg");
+}
+
+.reports-icon {
+    content: url("reports.svg");
+}
+
+.grade-sub-icon {
+    content: url("grade_submissions.svg");
+}
+
+.about-us {
+    align-self: center;
+    font-size: 14px;
+    color: #1F7A54;
+}
+
+.footer {
+    background: #E0E1E1;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: normal normal medium 12px/16px 'Quicksand';
+    font-size: 12px;
+    color: #616161;
+}
+
+.footer-logo {
+    content: url("qsa/icons/logo_used_in_footer.svg");
+    vertical-align: middle;
+}
+
+@media only screen and (max-width: 800px) {
+    .nav-item {
+        display: none;
+    }
+    
+    .short-width {
+        display: block;
+        content: url("qsa/icons/hamburger-menu.svg");
+        transform: scale(1.5);
+    }
+}
