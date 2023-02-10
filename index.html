@@ -9,15 +9,52 @@
       <div class="header">
         <span class="logo-icon"></span>
         <div class="header-items long-width">
-          <span class="nav-item short-width"></span>
+          <div class="ham-dropdown" style="float: right">
+            <span class="nav-item short-width" id="ham-button"></span>
+            <div class="dropdown-content" id="dropdown-id">
+              <a class="dropdown-item" href="#"
+                ><span>Link 1</span><span></span
+              ></a>
+              <a class="dropdown-item sub-dropdown" id="sub-button"
+                ><span>Link 2</span><span class="down-icon"></span
+              ></a>
+              <div class="sub-dropdown-content" id="sub-dropdown-id">
+                <a class="sub-dropdown-item" href="#"
+                  ><span>Link 1</span><span></span
+                ></a>
+                <a class="sub-dropdown-item" href="#"
+                  ><span>Link 1</span><span></span
+                ></a>
+                <a class="sub-dropdown-item" href="#"
+                  ><span>Link 1</span><span></span
+                ></a>
+              </div>
+              <a class="dropdown-item" href="#"
+                ><span>Link 3</span><span></span
+              ></a>
+              <a class="dropdown-item" href="#"
+                ><span>Link 4</span><span></span
+              ></a>
+            </div>
+          </div>
           <span class="nav-item active">DASHBOARD</span>
           <span class="nav-item">CONTENT</span>
           <span class="nav-item">USERS</span>
           <span class="nav-item">REPORTS</span>
           <span class="nav-item">ADMIN</span>
-          <span class="nav-item"><span class="bell-icon"></span></span>
-          <span class="nav-item"><span class="horn-icon"></span></span>
-          <span class="nav-item"><span class="profile-icon"></span></span>
+          <span class="nav-item short-width-visible"
+            ><span class="bell-icon alert-class" id="bell-id"></span
+          ></span>
+          <span class="nav-item short-width-visible"
+            ><span class="horn-icon"></span
+          ></span>
+          <span class="nav-item short-width-visible"
+            ><span class="profile-icon"></span
+          ></span>
+        </div>
+        <div class="bell-icon-hover-content alert-class" id="alert-content-id">
+          <a class="dropdown-item" href="#"><span>Link 3</span><span></span></a>
+          <a class="dropdown-item" href="#"><span>Link 4</span><span></span></a>
         </div>
       </div>
       <div class="main">
@@ -48,7 +85,7 @@
           <div class="card">
             <div class="card-body">
               <div class="card-img">
-                <img src="imageMask.png" />
+                <img src="qsa/images/imageMask.png" />
               </div>
               <div class="card-content">
                 <div class="line-1">
@@ -88,7 +125,7 @@
           <div class="card">
             <div class="card-body">
               <div class="card-img">
-                <img src="imageMask.png" />
+                <img src="qsa/images/imageMask.png" />
               </div>
               <div class="card-content">
                 <div class="line-1">
@@ -128,7 +165,7 @@
           <div class="card">
             <div class="card-body">
               <div class="card-img">
-                <img src="imageMask.png" />
+                <img src="qsa/images/imageMask.png" />
               </div>
               <div class="card-content">
                 <div class="line-1">
@@ -168,7 +205,7 @@
           <div class="card">
             <div class="card-body">
               <div class="card-img">
-                <img src="imageMask.png" />
+                <img src="qsa/images/imageMask.png" />
               </div>
               <div class="card-content">
                 <div class="line-1">
@@ -216,5 +253,6 @@
         </span>
       </div>
     </div>
+    <script src="EventListeners.js"></script>
   </body>
 </html>
