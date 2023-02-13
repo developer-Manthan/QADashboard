@@ -15,10 +15,11 @@ const toggleClass = "sub-dropdown-content-show";
 
 //
 const bellButton = document.getElementById('bell-icon-button');
-
-const bellId = document.getElementById('bell-id');
 const alertContentId = document.getElementById('alert-content-id');
-const alertClass = document.getElementsByClassName('alert-class');
+
+//
+const hornButton = document.getElementById('horn-icon-button');
+const announcementContentId = document.getElementById('announcement-content-id');
 
 //
 hamButton.addEventListener("click", function() {
@@ -66,6 +67,14 @@ bellButton.addEventListener("mouseover", () => {
 
 bellButton.addEventListener("mouseout", () => {
     alertContentId.style.display = 'none';
+})
+
+hornButton.addEventListener("mouseover", () => {
+    announcementContentId.style.display = 'flex';
+})
+
+hornButton.addEventListener("mouseout", () => {
+    announcementContentId.style.display = 'none';
 })
 
 // alertClass.addEventListener("mouseover", function() {

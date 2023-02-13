@@ -20,7 +20,8 @@ html, body {
 }
 
 .header {
-    background: url("qsa/header_pattern_svg.svg");
+    /* background: url("qsa/dark-blue.jpg"); */
+    background-color: #152238;
     height: 50px;
     display: flex;
     align-items: center;
@@ -287,7 +288,6 @@ hr {
 
 .card-footer {
     display: flex;
-    margin-top: 18px;
     justify-content: space-around;
     align-items: center;
 }
@@ -409,4 +409,20 @@ hr {
     .short-width-visible {
         display: flex;
     }
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-item a {
+    color: #3FD28B;
+}
+
+.active a {
+    color: #FFFFFF;
+}
+
+.course-header-item a {
+    color: #222222;
 }

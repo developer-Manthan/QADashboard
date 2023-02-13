@@ -1,5 +1,5 @@
 {
-    "nav_item": ["DASHBOARD", "CONTENT", "USERS", "REPORTS", "ADMIN"],
+    "nav_item": ["<a href=\"#\">DASHBOARD</a>", "<a href=\"#\">CONTENT</a>", "<a href=\"#\">USERS</a>", "<a href=\"#\">REPORTS</a>", "<a href=\"#\">ADMIN</a>"],
     "course_header_item": ["4 Courses", "4 Classes"],
     "showing": "Showing 4 of 4 courses",
     "cards": [

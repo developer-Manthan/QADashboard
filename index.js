@@ -24,8 +24,11 @@ fetch(myRequest)
 
     //
     for(let i = 0; i < 2; i++) {
-        let inText = document.createTextNode(data.course_header_item[i]);
-        courseHeaderItems[i].appendChild(inText);
+        var aTag = document.createElement('a');
+        aTag.setAttribute('href',"#");
+        aTag.innerText = data.course_header_item[i];
+        // let inText = document.createTextNode(data.course_header_item[i]);
+        courseHeaderItems[i].appendChild(aTag);
     }
 
     //
