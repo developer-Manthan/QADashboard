@@ -1,0 +1,41 @@
+{
+    "nav_item": ["DASHBOARD", "CONTENT", "USERS", "REPORTS", "ADMIN"],
+    "course_header_item": ["4 Courses", "4 Classes"],
+    "showing": "Showing 4 of 4 courses",
+    "cards": [
+        {
+            "line_1": "Acceleration",
+            "subject": "Physics",
+            "grade": "7",
+            "line_3": "<b>4</b> Units &nbsp;<b>18</b> Lessons &nbsp;<b>24</b> Topics",
+            "line_5": "50 Students&nbsp;&nbsp;|&nbsp;&nbsp;21-Jan-2020 - 21-Aug-2020",
+            "image": "qsa/images/imageMask.png"
+        },
+        {
+            "line_1": "Displacement, Velocity and Speed",
+            "subject": "Physics",
+            "grade": "6",
+            "line_3": "<b>2</b> Units &nbsp;<b>15</b> Lessons &nbsp;<b>20</b> Topics",
+            "line_5": "",
+            "image": "qsa/images/imageMask-1.png"
+        },
+        {
+            "line_1": "Introduction to Biology: Micro organisms and how they affect the other...",
+            "subject": "Biology",
+            "grade": "4",
+            "line_3": "<b>5</b> Units &nbsp;<b>16</b> Lessons &nbsp;<b>22</b> Topics",
+            "line_5": "300 Students",
+            "image": "qsa/images/imageMask-3.png"
+        },
+        {
+            "line_1": "Introduction to High School Mathematics",
+            "subject": "Mathematics",
+            "grade": "8",
+            "line_3": "",
+            "line_5": "44 Students&nbsp;&nbsp;|&nbsp;&nbsp;14-Oct-2019 - 20-Oct-2020",
+            "image": "qsa/images/imageMask-2.png"
+        }
+    ],
+    "about_us": "About | Contact Us",
+    "footer_text": "&nbsp;&nbsp;|&nbsp; Copyright &copy; 2023-2024 <b>Zeus Systems Pvt. Ltd.</b> All rights reserved."
+}
